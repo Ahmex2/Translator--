@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translator App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+        form {
+            margin: 0 auto;
+            width: 50%;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <h1>Translator App</h1>
+    <div class="container">
+        <form action="/english_to_french" method="GET">
+            <label for="english-text">Enter English text to translate to French:</label>
+            <input type="text" id="english-text" name="text">
+            <button type="submit">Translate</button>
+        </form>
+        <form action="/french_to_english" method="GET">
+            <label for="french-text">Enter French text to translate to English:</label>
+            <input type="text" id="french-text" name="text">
+            <button type="submit">Translate</button>
+        </form>
+    </div>
+</body>
+</html>
