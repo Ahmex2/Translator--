@@ -55,4 +55,4 @@ Contributions to this project are welcome. You can contribute by reporting issue
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for personal or commercial use.
+This project is licensed under the [Apache License](LICENSE). Feel free to use and modify the code for personal or commercial use.
